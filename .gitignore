@@ -1,0 +1,46 @@
+# Home Assistant secrets and sensitive configuration
+config/secrets.yaml
+config/.storage/
+config/home-assistant_v2.db
+config/home-assistant_v2.db-shm
+config/home-assistant_v2.db-wal
+config/home-assistant.log
+config/tts/
+config/deps/
+config/.cloud/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node (if any tooling is added)
+node_modules/
+npm-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Backups
+backups/
+*.bak
+*.backup

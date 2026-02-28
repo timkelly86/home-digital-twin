@@ -1,0 +1,26 @@
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    environment:
+      - TZ=${HA_TIMEZONE:-America/Chicago}
+
+  # Uncomment when ready for MQTT-based IoT devices
+  # mosquitto:
+  #   container_name: mosquitto
+  #   image: eclipse-mosquitto:2
+  #   volumes:
+  #     - ./mosquitto/config:/mosquitto/config
+  #     - ./mosquitto/data:/mosquitto/data
+  #     - ./mosquitto/log:/mosquitto/log
+  #   ports:
+  #     - "1883:1883"
+  #     - "9001:9001"
+  #   restart: unless-stopped
