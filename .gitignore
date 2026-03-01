@@ -40,7 +40,8 @@ npm-debug.log*
 # Docker
 docker-compose.override.yml
 
-# Backups
+# Backups and emergency kits
 backups/
 *.bak
 *.backup
+*emergency_kit*
