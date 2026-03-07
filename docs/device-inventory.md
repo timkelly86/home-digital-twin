@@ -136,7 +136,7 @@
 | Integration | Status | Blocked On |
 |---|---|---|
 | **Lutron Caseta** | Pending | Hardware setup (bridge pairing) |
-| **Z-Wave (ZHA/Z-Wave JS)** | Pending | Z-Wave USB stick purchase (~$30) |
+| **Z-Wave JS** | In progress | Zooz 800 LR S2 stick plugged into Pi — see [runbook](runbooks/zwave-zooz-800-setup.md) |
 | **Pentair ScreenLogic** | Future | Pool season / Epic F |
 | **MyQ** | Future | Evaluate ratgdo vs cloud API |
 | **MQTT (Mosquitto)** | Future | Normalization layer (Phase 2) |
@@ -144,11 +144,11 @@
 
 ---
 
-## Hardware Shopping List
+## Hardware
 
-| Item | Purpose | Est. Cost | Priority |
-|---|---|---|---|
-| Z-Wave USB stick (Zooz ZST39 or SiLabs UZB-7) | Local control of locks, Leviton, Ring sensors | ~$30 | High |
+| Item | Status | Notes |
+|---|---|---|
+| Zooz 800 Series Z-Wave Long Range S2 stick | **Acquired, plugged into Pi** | Setup via HA UI — [runbook](runbooks/zwave-zooz-800-setup.md). Use USB 2.0 extension (3–6 ft) if possible. |
 
 ---
 

@@ -30,6 +30,7 @@ home-digital-twin/
 │   ├── blueprints/          # Reusable automation blueprints
 │   └── www/                 # Static assets served by HA (icons, images)
 ├── docs/                    # Project documentation and scope
+│   ├── runbooks/            # Step-by-step setup and ops (e.g. Z-Wave, backups)
 ├── docker-compose.yml       # Container orchestration
 ├── .env.example             # Environment variable template
 └── .gitignore
@@ -68,6 +69,12 @@ home-digital-twin/
    ```
 
 5. **Access the UI** at `http://<your-server-ip>:8123`
+
+## Runbooks
+
+Step-by-step guides for hardware and integrations:
+
+- **[Z-Wave: Zooz 800 series stick](docs/runbooks/zwave-zooz-800-setup.md)** — Install Z-Wave JS, add the stick, and migrate locks/switches/sensors from Ring.
 
 ## Development workflow
 
