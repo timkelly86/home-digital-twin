@@ -70,6 +70,10 @@ home-digital-twin/
 
 5. **Access the UI** at `http://<your-server-ip>:8123`
 
+## Task walkthrough
+
+**[docs/tasks-walkthrough.md](docs/tasks-walkthrough.md)** — Ordered checklist: what’s done, what’s next (Z-Wave devices, Lutron, dashboards, MyQ, pool, Tandem), with short steps and links to runbooks.
+
 ## Runbooks
 
 Step-by-step guides for hardware and integrations:

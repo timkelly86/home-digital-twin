@@ -2,7 +2,7 @@
 
 > Last updated from Home Assistant API: 2026-03-02
 > HA Version: 2026.2.3 | HA OS: 17.1 | Host: Raspberry Pi | IP: 192.168.1.74
-> Total entities: 98
+> Total entities: 101 (Z-Wave controller present; no Z-Wave devices paired yet)
 
 ---
 
@@ -136,7 +136,7 @@
 | Integration | Status | Blocked On |
 |---|---|---|
 | **Lutron Caseta** | Pending | Hardware setup (bridge pairing) |
-| **Z-Wave JS** | In progress | Zooz 800 LR S2 stick plugged into Pi — see [runbook](runbooks/zwave-zooz-800-setup.md) |
+| **Z-Wave JS** | Configured, 0 devices | Zooz 800 LR S2 stick connected; add devices via Settings → Z-Wave → Add device (exclude from Ring first). See [runbook](runbooks/zwave-zooz-800-setup.md) |
 | **Pentair ScreenLogic** | Future | Pool season / Epic F |
 | **MyQ** | Future | Evaluate ratgdo vs cloud API |
 | **MQTT (Mosquitto)** | Future | Normalization layer (Phase 2) |
