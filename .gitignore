@@ -45,3 +45,9 @@ backups/
 *.bak
 *.backup
 *emergency_kit*
+
+# Life Admin — OAuth tokens and credentials (never commit these)
+tools/life-admin/email/token.json
+tools/life-admin/email/credentials.json
+tools/life-admin/photos/token.json
+tools/life-admin/photos/credentials.json
